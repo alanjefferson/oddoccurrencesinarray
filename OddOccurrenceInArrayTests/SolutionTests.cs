@@ -23,7 +23,7 @@ namespace OddOccurrenceInArrayTests
 		[Test]
 		public void OddOccurrencesInArray_Test2()
 		{
-			int result = _solution.solution(new int[] { 9, 3, 9, 3, 9, 7, 9, 7, 5, 9, 3, 9 });
+			int result = _solution.solution(new int[] { 9, 3, 9, 3, 9, 7, 9, 7, 5, 9, 3, 9, 3 });
 			Assert.AreEqual(5, result);
 		}
 
@@ -44,14 +44,14 @@ namespace OddOccurrenceInArrayTests
 		[Test]
 		public void OddOccurrencesInArray_Test5()
 		{
-			int result = _solution.solution(new int[] { 2, 2, 2, 3, 3, 4, 3 });
+			int result = _solution.solution(new int[] { 2, 2, 2, 2, 3, 3, 4, 3, 3 });
 			Assert.AreEqual(4, result);
 		}
 
 		[Test]
 		public void OddOccurrencesInArray_Test6()
 		{
-			int result = _solution.solution(new int[] { 1, 2, 2, 2, 3, 3, 2, 3 });
+			int result = _solution.solution(new int[] { 1, 2, 2, 2, 3, 3, 2, 3, 3 });
 			Assert.AreEqual(1, result);
 		}
 	}
